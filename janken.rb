@@ -16,7 +16,7 @@ class Player
 end
 class Enemy
   def hand
-    enemy_hand = rand(3)
+    enemy_hand = rand(1..2)
   end
 end
 
